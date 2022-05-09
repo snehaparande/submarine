@@ -1,0 +1,59 @@
+* {
+  margin: 0em;
+  padding: 0em;
+}
+
+body {
+  font-size: 16px;
+  width: 60em;
+  margin: 1em auto;
+  font-family: sans-serif;
+}
+
+.submarine {
+  width: 100%;
+  border-radius: 0.8em;
+  overflow: hidden;
+}
+
+.sky > * {
+  height: 3em;
+}
+
+.sky > div:nth-child(1) {
+  background-color: #add6ffe0;
+}
+
+.sky > div:nth-child(2) {
+  background-color: #C2E2FF;
+}
+
+.sky > div:nth-child(3) {
+  background-color: #D6EBFF;
+}
+
+.sky > div:nth-child(4) {
+  background-color: #e0f1ff;
+}
+
+.sky > div:nth-child(5) {
+  background-color: #EBF5FF;
+}
+
+.ocean {
+  height: 16em;
+  background-color: dodgerblue;
+}
+
+.ocean h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 10em;
+  text-align: center;
+  color: hsl(210deg 100% 26% / 80%);
+  text-shadow: 1px 1px 1px lightgrey;
+}
+
+.periscope {
+  position: relative;
+  bottom: 0.4em;
+}
